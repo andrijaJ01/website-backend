@@ -11,4 +11,4 @@ router = APIRouter(
 
 @router.get("/")
 def contact(request: Request):
-    return {'message':'this is profile page'}
+    return {'message':'this is contact response, here I will add contact endpoint that will be used to process POST requests from react frontend'}
