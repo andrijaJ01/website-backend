@@ -23,11 +23,14 @@ app.add_middleware(
             allow_headers=["*"],
                             )
 
-
+data={
+        'name':'Andrija Jovanovic',
+        'text':'fullstack developer'
+        }
 
 app.include_router(contact.router)
 app.include_router(about.router)
 
 @app.get('/')
 async def get_root():
-    return{'message':'root of the backend'}
+    return data
