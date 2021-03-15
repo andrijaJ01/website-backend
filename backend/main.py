@@ -12,6 +12,7 @@ origins = [
         "https://www.andrijajovanovic.ml",
         "http://localhost:3000",
         "http://192.168.1.10:3000",
+        "https://192.168.1.10:3000",
         "https://www.andrijajovanovic.ml",
         "https://andrijajovanovic.ml",
         "https://mystifying-bassi-d50963.netlify.app/"
